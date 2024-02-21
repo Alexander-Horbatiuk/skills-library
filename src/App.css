@@ -16,6 +16,13 @@
   color: white;
 }
 
+@media screen and (width < 1220px) {
+  .App-header {
+    gap: 40px;
+    flex-direction: column;
+  }
+}
+
 
 
 
