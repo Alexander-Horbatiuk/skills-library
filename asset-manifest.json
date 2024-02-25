@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/skills-library/static/css/main.2e2b0bed.css",
-    "main.js": "/skills-library/static/js/main.6e8bb911.js",
+    "main.css": "/skills-library/static/css/main.a1ae54e8.css",
+    "main.js": "/skills-library/static/js/main.df63d12e.js",
     "static/js/453.2f0c384c.chunk.js": "/skills-library/static/js/453.2f0c384c.chunk.js",
     "static/media/card-back.jpeg": "/skills-library/static/media/card-back.d5cae50ef3a7440715e9.jpeg",
     "static/media/card-front.jpeg": "/skills-library/static/media/card-front.b2d079163db2feb6de47.jpeg",
     "index.html": "/skills-library/index.html",
-    "main.2e2b0bed.css.map": "/skills-library/static/css/main.2e2b0bed.css.map",
-    "main.6e8bb911.js.map": "/skills-library/static/js/main.6e8bb911.js.map",
+    "main.a1ae54e8.css.map": "/skills-library/static/css/main.a1ae54e8.css.map",
+    "main.df63d12e.js.map": "/skills-library/static/js/main.df63d12e.js.map",
     "453.2f0c384c.chunk.js.map": "/skills-library/static/js/453.2f0c384c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e2b0bed.css",
-    "static/js/main.6e8bb911.js"
+    "static/css/main.a1ae54e8.css",
+    "static/js/main.df63d12e.js"
   ]
 }
