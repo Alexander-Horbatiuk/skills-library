@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import './index.scss';
 
-export const CubeTwo = () => {
+export const SphereOne = () => {
 	const sideCount = 19; // Количество сторон
 	const [currentSideIndex, setCurrentSideIndex] = useState(0);
 	const [isAddingClasses, setIsAddingClasses] = useState(true);
@@ -44,8 +44,8 @@ export const CubeTwo = () => {
 
 
 	return (
-		<div className="earth-wrapper">
-			<div className="earth">
+		<div className="sphere-wrapper-one">
+			<div className="sphere">
 				<span>3D Effect</span>
 				{Array.from({ length: sideCount }).map((_, index) => (
 					<div
