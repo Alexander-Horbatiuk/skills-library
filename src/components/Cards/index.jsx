@@ -1,6 +1,7 @@
-import {CardOne} from "components/Cards/CardOne"
+import {CardOne} from 'components/Cards/CardOne'
 
 export const Cards = () => {
+
 	return (
 		<>
 			<CardOne />

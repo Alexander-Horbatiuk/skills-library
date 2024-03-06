@@ -1,0 +1,75 @@
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .logo-main-page {
+	max-width: 70%;
+	animation: main-logo-animate 1s linear infinite;
+  }
+}
+
+@keyframes main-logo-animate {
+  0% {
+	filter: drop-shadow(1px 1px 0px rgba(57, 232, 255, 0.22))
+  }
+  1% {
+	filter: drop-shadow(1px 1px 0px transparent)
+  }
+  10% {
+	filter: drop-shadow(-9px 4px 0px rgba(57, 232, 255, 0.22))
+  }
+  11% {
+	filter: drop-shadow(-9px 4px 0px transparent)
+  }
+
+  20% {
+	filter: drop-shadow(9px -4px 0px rgba(57, 232, 255, 0.22))
+  }
+  21% {
+	filter: drop-shadow(9px -4px 0px transparent)
+  }
+
+  30% {
+	filter: drop-shadow(-5px --10px 0px rgba(57, 232, 255, 0.22))
+  }
+  31% {
+	filter: drop-shadow(-5px -10px 0px transparent)
+  }
+
+  40% {
+	filter: drop-shadow(-7px 7px 0px rgba(57, 232, 255, 0.22))
+  }
+  41% {
+	filter: drop-shadow(-7px 7px 0px transparent)
+  }
+
+  50% {
+	filter: drop-shadow(-3px -7px 0px rgba(57, 232, 255, 0.22))
+  }
+  51% {
+	filter: drop-shadow(-3px -7px 0px transparent)
+  }
+
+  60% {
+	filter: drop-shadow(-5px 10px 0px rgba(57, 232, 255, 0.22))
+  }
+  61% {
+	filter: drop-shadow(-5px 10px 0px transparent)
+  }
+
+  80% {
+	filter: drop-shadow(5px -10px 0px rgba(57, 232, 255, 0.22))
+  }
+  81% {
+	filter: drop-shadow(5px -10px 0px transparent)
+  }
+
+  90% {
+	filter: drop-shadow(5px 0px 0px rgba(57, 232, 255, 0.22))
+  }
+  91% {
+	filter: drop-shadow(-2px 0px 0px transparent)
+  }
+}

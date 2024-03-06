@@ -5,6 +5,8 @@ $accent-color: white;
   position: relative;
   justify-content: center;
   align-items: center;
+  width: 300px;
+  height: 300px;
 
   .side {
 	outline: 1px solid $accent-color;
