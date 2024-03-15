@@ -4,25 +4,24 @@ export const AppContext = createContext(null);
 
 export const ContextProvider = ({children}) => {
 	const [user, setUser] = useState('')
-	const [location, setLocation] = useState()
+	const [locationPath, setLocation] = useState('/skills-library')
 
 	useEffect(() => {
 		const storedLocation = localStorage.getItem('location');
-		setLocation(storedLocation || '');
+		setLocation(storedLocation || 'skills-library');
 	}, []);
 
-	const updateLocation = (event) => {
-		setLocation(event.target.pathname);
-		localStorage.setItem('location', event.target.pathname);
+	const updateLocation = ({target}) => {
+		const {pathname} = target;
+		setLocation(pathname);
+		localStorage.setItem('location', pathname);
 	};
 
-
-
 	const model = {
-		User: user,
-		setUser: setUser,
-		Location: location,
-		updateLocation: updateLocation,
+		user,
+		setUser,
+		locationPath,
+		updateLocation,
 	}
 
 	return (

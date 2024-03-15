@@ -8,7 +8,7 @@ $text-color: #fff;
   background-color: #282c34;
 }
 
-.naw-bar-wrapper {
+.nav-bar-wrapper {
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -26,11 +26,11 @@ $text-color: #fff;
     padding: 20px 0;
   }
 
-  .naw-bar-element {
+  .nav-bar-element {
     width: 100%;
   }
 
-  .naw-bar-link {
+  .nav-bar-link {
     color: $text-color;
     padding: 10px 7px;
     border-radius: 10px;
@@ -44,7 +44,7 @@ $text-color: #fff;
     }
   }
 
-  .naw-bar-link.active {
+  .nav-bar-link.active {
     background: #2f2f2f;
 
     &:hover {
