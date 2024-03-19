@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/skills-library/static/css/main.5e25f652.css",
-    "main.js": "/skills-library/static/js/main.f72c2909.js",
+    "main.css": "/skills-library/static/css/main.e4d967dd.css",
+    "main.js": "/skills-library/static/js/main.76fd8cbc.js",
     "static/js/453.2f0c384c.chunk.js": "/skills-library/static/js/453.2f0c384c.chunk.js",
-    "static/media/card-back.jpeg": "/skills-library/static/media/card-back.d5cae50ef3a7440715e9.jpeg",
-    "static/media/card-front.jpeg": "/skills-library/static/media/card-front.b2d079163db2feb6de47.jpeg",
+    "static/media/c3po-portrait.jpg": "/skills-library/static/media/c3po-portrait.71e73562a36636d68286.jpg",
+    "static/media/r2d2.jpeg": "/skills-library/static/media/r2d2.59172ca6f74e252901ed.jpeg",
+    "static/media/vader-4.jpeg": "/skills-library/static/media/vader-4.708655e1c0e577636813.jpeg",
     "static/media/logo-main-page.svg": "/skills-library/static/media/logo-main-page.69533710bb900f5de7c465de4bd1f61c.svg",
     "static/media/logo.svg": "/skills-library/static/media/logo.82246608aa0e76c97f79a0751eda0d35.svg",
     "index.html": "/skills-library/index.html",
-    "main.5e25f652.css.map": "/skills-library/static/css/main.5e25f652.css.map",
-    "main.f72c2909.js.map": "/skills-library/static/js/main.f72c2909.js.map",
+    "main.e4d967dd.css.map": "/skills-library/static/css/main.e4d967dd.css.map",
+    "main.76fd8cbc.js.map": "/skills-library/static/js/main.76fd8cbc.js.map",
     "453.2f0c384c.chunk.js.map": "/skills-library/static/js/453.2f0c384c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e25f652.css",
-    "static/js/main.f72c2909.js"
+    "static/css/main.e4d967dd.css",
+    "static/js/main.76fd8cbc.js"
   ]
 }
