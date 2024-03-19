@@ -1,81 +1,82 @@
 $text-color: #fff;
 
 .content-wrapper {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  background-color: #282c34;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	background-color: #282c34;
+	gap: 40px;
 }
 
 .nav-bar-wrapper {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  gap: 10px;
-  background: #171717;
-  max-width: 200px;
-  width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	gap: 10px;
+	background: #171717;
+	max-width: 200px;
+	width: 100%;
 
-  .main-logo {
-    fill: $text-color;
-  }
+	.main-logo {
+		fill: $text-color;
+	}
 
-  span {
-    border-bottom: 1px solid #2f2f2f;
-    padding: 20px 0;
-  }
+	span {
+		border-bottom: 1px solid #2f2f2f;
+		padding: 20px 0;
+	}
 
-  .nav-bar-element {
-    width: 100%;
-  }
+	.nav-bar-element {
+		width: 100%;
+	}
 
-  .nav-bar-link {
-    color: $text-color;
-    padding: 10px 7px;
-    border-radius: 10px;
-    width: 90%;
-    box-sizing: border-box;
-    display: flex;
-    transition: .3s;
+	.nav-bar-link {
+		color: $text-color;
+		padding: 10px 7px;
+		border-radius: 10px;
+		width: 90%;
+		box-sizing: border-box;
+		display: flex;
+		transition: .3s;
 
-    &:hover {
-      background: #212121;
-    }
-  }
+		&:hover {
+			background: #212121;
+		}
+	}
 
-  .nav-bar-link.active {
-    background: #2f2f2f;
+	.nav-bar-link.active {
+		background: #2f2f2f;
 
-    &:hover {
-      background: #2f2f2f;
-    }
-  }
-  
-  .link-logo {
-    display: flex;
-    justify-content: center;
-    transition: 1s;
+		&:hover {
+			background: #2f2f2f;
+		}
+	}
 
-    .main-logo {
-      g {
-        fill: #ccc;
-      }
-    }
+	.link-logo {
+		display: flex;
+		justify-content: center;
+		transition: 1s;
+
+		.main-logo {
+			g {
+				fill: #ccc;
+			}
+		}
 
 
-    &:hover {
-      g {
-        fill: url(#SvgjsLinearGradient2141);
-      }
-    }
-  }
+		&:hover {
+			g {
+				fill: url(#SvgjsLinearGradient2141);
+			}
+		}
+	}
 
-  .active-link-logo {
-    .main-logo {
-      g {
-        fill: url(#SvgjsLinearGradient2141);
-      }
-    }
-  }
+	.active-link-logo {
+		.main-logo {
+			g {
+				fill: url(#SvgjsLinearGradient2141);
+			}
+		}
+	}
 }

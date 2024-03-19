@@ -1,74 +1,87 @@
-.card {
-  max-width: 400px;
-  width: 100%;
+@import "src/styles/mixins";
 
-  &:hover .card-content{
-	transform: rotateY(180deg);
-  }
+.card-one-wrapper {
+	max-width: 400px;
+	width: 100%;
 
-  .card-content {
-	position: relative;
-	padding: 15rem 5rem;
-	transform-style: preserve-3d;
-	transition: transform 3s;
-  }
-
-  .card-front,
-  .card-back {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	padding: 2rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	backface-visibility: hidden;
-	transform-style: preserve-3d;
-  }
-
-  .card-front,
-  .card-back {
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-blend-mode: overlay;
-  }
-
-  .card-front {
-	background-image: url("../../../img/card-front.jpeg");
-	background-color: rgba(255, 163, 42, 0.2);
-	align-items: center;
-	z-index: 2;
-
-	&::before {
-	  content: "";
-	  position: absolute;
-	  inset: 1rem;
-	  border: 3px solid yellow;
-	  transform: translateZ(2rem);
+	&:hover .card-content {
+		transform: rotateY(180deg);
 	}
-  }
 
-  .card-back {
-	background-image: url("../../../img/card-back.jpeg");
-	transform: rotateY(180deg);
-	gap: 0.5rem;
-	z-index: 1;
-  }
+	.card-content {
+		position: relative;
+		padding: 15rem 5rem;
+		transform-style: preserve-3d;
+		transition: transform 3s, box-shadow 2s;
+		box-shadow: 0 70px 63px -60px #000000;
+	}
 
-  .title {
-	font-size: 4.5rem;
-	line-height: 120%;
-	text-transform: uppercase;
-	transform: translateZ(4.4rem);
-  }
+	.card-front,
+	.card-back {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		padding: 40px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		backface-visibility: hidden;
+		transform-style: preserve-3d;
+		background-blend-mode: overlay;
+		gap: 20px;
+		box-shadow: inset 0 0 26px -5px #000000;
+		color: #fff;
+		@include radius-card(5px);
+	}
 
-  .sub-title {
-	font-size: 0.75rem;
-	font-weight: 500;
-	letter-spacing: 3px;
-	text-transform: uppercase;
-	transform: translateZ(3rem);
-  }
+	.card-front {
+		background: url("../../../img/c3po-portrait.jpg") center no-repeat;
+		background-size: 400px;
+		z-index: 2;
+
+		&::before {
+			content: "";
+			position: absolute;
+			inset: 4%;
+			border: 3px solid yellow;
+			transform: translateZ(2rem);
+		}
+	}
+
+	.card-back {
+		background: url("../../../img/r2d2.jpeg") center no-repeat;
+		transform: rotateY(180deg);
+		background-size: 400px;
+		gap: 20px;
+		z-index: 1;
+
+		.movie-description {
+			transform: translateZ(3rem);
+
+			span {
+				text-transform: uppercase;
+				font-size: 15px;
+			}
+
+			font-size: 10px;
+		}
+	}
+
+	.title {
+		font-size: 60px;
+		line-height: 120%;
+		text-transform: uppercase;
+		transform: translateZ(4.4rem);
+	}
+
+	.sub-title {
+		font-size: 15px;
+		font-weight: 500;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		transform: translateZ(3rem);
+	}
 }
